@@ -1,0 +1,32 @@
+
+#container {
+  position: fixed;
+  border: 1px solid black;
+}
+
+
+#scale {
+  width: 1000px;
+  height: 1000px;
+  padding: .5px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  outline: .5px solid black;
+}
+
+#canvas1 {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  outline: .5px solid black;
+}
+
+#grid {
+  outline: 1px solid black;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}

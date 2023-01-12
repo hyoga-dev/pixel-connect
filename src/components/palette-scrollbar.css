@@ -1,0 +1,23 @@
+.palette {
+  scrollbar-gutter: stable both-edges;
+}
+
+.palette::-webkit-scrollbar {
+  width: .4vw;
+  position: absolute;
+}
+
+/* Track */
+.palette::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.palette::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.palette::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
